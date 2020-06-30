@@ -1,4 +1,4 @@
-FROM node:11-alpine
+FROM node:12.18.1-alpine
 
 RUN npm install -g newman newman-reporter-html
 
